@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG </a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs</h1>
+    </section>
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs</h2>
+            <p>Open Education has a long history and successful track-record of supporting online and distance learning students and part-time learners and is pleased to offer the following online, distance and campus part-time places at undergraduate and postgraduate levels. </p>
+            <br>
+            <p>This Computer Programming programme is ideal for anyone with a keen interest in learning object oriented programming in the Java language. No pre-requisite qualifications are necessary, but any experience in Computing and particularly in Programming and Software Development is advantageous. The course provides an overview of the software development process in addition to introducing important.</p>
+            <br>
+            <p>This rapid fire course teaches a number of advance C# programming topics using practical examples to illustrate their use. This two day course teaches advanced programming techniques for the C# language. Extensive fully worked examples are used to illustrate the points raised in the course, and to provide hands-on experience, together with a comprehensive course manual.</p>
+            <br>
+            <p>This 5 day course covers the C++ language including recent features from the C++11 and C++14 updates. The course covers the C++ language without assuming a particular target environment although we can also offer modules on particular areas such as MFC or Linux programming if required. The course includes several standard projects.</p>
+            <br>
+            <p>Overview C is a general purpose programming language developed in the early 1970s by Dennis Ritchie. It is one of the most widely used programming languages of all time, originally developed for implementing the UNIX operating system. Nowadays it is largely used for developing system applications, database systems, graphics packages, operation system development.</p>
+           
+            <div class="comment-box">
+
+             <h3>Leave a comment</h3>
+
+            <form  class="comment-form">
+                
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+               <button type="submit" class="hero red" >POST COMMENT</button>
+
+            </form>
+
+
+            </div>
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>55</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>69</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>90</span>
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+    
+   
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We will do all we can to help you from initial enquiry right through to graduation should you study with us.</p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By &#128522 Samath Raj </p>
+</section>
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
